@@ -219,18 +219,23 @@
     position:relative;
     font-family:'Times New Roman', Times, serif;
   }
-   
+   /* when ypu press a navbar option it takes you to the page in fast way  */
   html{
-    scroll-behavior: smooth;
+  
+    scroll-behavior: initial;
   }
    
    
   /* ----- Main Navbar -----*/
    
   .navbar {
-    position:fixed;
-    top:28px;
-    right:120px;
+    position: static;
+    top:0px;
+    right:0px;
+    padding: 0;
+    padding-top: 50px;
+    text-align: center;
+    float: none;
     animation: menumove 1s; 
     z-index: 9999;
   }
@@ -249,6 +254,30 @@
    
    
   /* ----- Main Program ----- */
+
+
+  #hambLinks{
+    margin-top:30px;
+    text-align:center;
+    width:100%;
+    display:none;
+}
+
+#hambLinks a {
+    display:block;
+    border-bottom:1px solid rgb(185, 185, 185);
+}
+
+#toggle:checked + #hambLinks{
+    display:block;
+}
+
+.meny ul{
+   margin: 0;
+   float: none;
+   text-align: center;
+}
+
    
   .Front-page{
     min-height: 800px;
