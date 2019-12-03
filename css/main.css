@@ -285,14 +285,9 @@
    /* ----- Front page ----- */
   .Front-page{
     min-height: 700px;
-    background-image: url(/BilderEgetProjekt/Gruppride.jpg);
     overflow: hidden;
-    background-position: center bottom;
-    background-attachment: fixed;
-    
-     
+  
   }
-
 
   .Front-page h1{
     font-size:30px;
@@ -309,18 +304,27 @@
 
 
    /* ----- Button to but Bicycles----- */
-  #btnwrap{
+   #btnwrap{
     text-align: center;
     font-size: 20px;
-    padding-top: 17em;
+    padding-top: 2em;
     transition-timing-function: ease-in-out;
     border: none;
   }
   
-  
-  
+ /* ----- Front page bikes----- */
+
+ .firstpagebikes img{
+    padding-top: 10%;
+    width: 70%;
+    border-radius:100%;
+    padding: 5%;
+    margin-right:10%;
+    margin-left: 10%;
    
    
+ }
+     
    
   /* ----- Bikes pictures ----- */
    
