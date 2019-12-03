@@ -11,6 +11,11 @@
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+
+  <link rel="stylesheet" media="screen and (max-width: 1050px)" href="media.css">
+  <link rel="stylesheet" media="screen and (max-width: 650px)" href="media.css">
+  <link rel="stylesheet" media="screen and (max-width: 610px)" href="media.css">
+
  
   
 </head>
@@ -18,6 +23,8 @@
 <body>
  <!--MainCode-->
 
+
+ <!-- Navbar -->
  <section class="Front-page" id="Home">
    
   <header>
@@ -27,42 +34,46 @@
       <nav class="navbar">
     
         <ul>
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Contact">Contact</a> </li>
-          <li><a href="#Bicycles">OurBicycles</a></li>
-          <li><a href="#Rides">Group Rides</a></li>
-          <li><a href="#Home">Home</a></li>
           
+          <li><a href="#About">About</a></li>
+          <li><a href="#Bicycles">Bicycles</a></li>
+          <li><a href="#GroupRides">Group Rides</a></li>
+          <li><a href="#Contact">Contact</a> </li>
         </ul>
  
       </nav>
-<!--
-<div class="Logotyp" id="Logga">
- 
-        <figure>
-                <img src="BilderEgetProjekt/Logga.jpg" alt="Logga"> 
-        </figure>
-        </div>
--->
-      
-      
 
+    <!-- Button to buy bicycles-->
       <div id="btnwrap">
-        <button type="button" aria-label="Buy Bicycles">Buy Bicycles</button>
+        <button type="button" aria-label="Bicycles">Buy Bicycles</button>
       </div>
- 
     </section>
  
   </header>
  
 </section>
+
+
+<!--Hamburger meny in mobile version-->
+
+<div id="hamburgerMeny">
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle" />
+    <div id="hambLinks">
+        <a href="#About">About</a>
+        <a href="#Bicycles">Bicycles</a>
+        <a href="#GroupRides">GroupRides</a>
+        <a href="#Contact">Contact</a>
+    </div>
+</div>
+
+
  
-<!--PicturesofBicycles-->
-<section class="ourBicycleSection" id="Bicycles">
+<!--Pictures of Bicycles-->
+<section class="BicycleSection" id="Bicycles">
  
   <h1 id="BicyclesHeader">Bikes in Store</h1>
-  <h3>These are the bikes in store And parts to a really good price!</h3>
+  <h3>These are the bikes in store </h3>
   <div class="OurBicycles">
  
     <figure>
@@ -88,8 +99,8 @@
  
 <!--GroupRides Text and pictures-->
  
-<section class="GroupRidesSection" id="Rides">
-<h1 id="GroupRidesHead"> Group Rides</h1>
+<section class="GroupRidesSection" id="GroupRides">
+<h1 id="GroupRides"> Group Rides</h1>
 <article id="GroupRidesContent">
   <h1 id="GroupRidesHeader"> Bring a friend to our Group Rides</h1>
   <h3>Here are some information about the group rides and other good information to have.</h3>
@@ -143,7 +154,7 @@
  
 </section>
  
-<!--CONTACT Information-->
+<!--Contact Information-->
  
 <section id="contactPage">
   <div class="gridContact" id="Contact">
@@ -154,7 +165,7 @@
     <div>
       <p>
         Name: Philip Naslund<br>
-        Email:PhilipsBicycles@gmail.com<br>
+        Email:Philipnaslund@gmail.com<br>
         Mobilnr: 0722196422<br>
         Adress: Järnvägsgatan 16<br>
         Postnummer: 50332 <br>
@@ -175,8 +186,7 @@
   </div>
  
 </section>
- 
- 
+
 <footer> COPYRIGHT 2019 PhilipsBicycles</footer>
  
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
