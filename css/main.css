@@ -64,9 +64,9 @@
     resize: vertical;
   }
    
-  /* ==========================================================================
+  /* 
      Browser Upgrade Prompt
-     ========================================================================== */
+  */
    
   .browserupgrade {
     margin: 0.2em 0;
@@ -125,13 +125,7 @@
   .invisible {
     visibility: hidden;
   }
-   
-  /*
-  * Clearfix: contain floats
-  *
-   
-  
-   
+     
   .clearfix:after {
     clear: both;
   }
