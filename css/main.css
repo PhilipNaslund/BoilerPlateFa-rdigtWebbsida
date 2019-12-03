@@ -227,7 +227,7 @@
    
   /* ----- Main Navbar -----*/
    
-  .navbar ul{
+  .navbar {
     position:fixed;
     top:28px;
     right:120px;
