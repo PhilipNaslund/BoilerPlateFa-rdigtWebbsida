@@ -326,8 +326,14 @@
    
  }
      
+ 
+  /* ----- Bikes Section ----- */
+
+
+  .BicycleSection h1 {
+  padding-top: 100px;
+ }
    
-  /* ----- Bikes pictures ----- */
    
   .OurBicycles{
     display: grid;
@@ -436,7 +442,7 @@
     padding-right:15px;
   }
    
-
+/* ----- Max width in mobile mode ----- */
   @media only screen and (max-width:700px)
 
   {
@@ -460,22 +466,39 @@
     width: 70%;
  }
 
-  /* ----- Button to but Bicycles----- */
+  /* ----- Button to buy Bicycles----- */
   #btnwrap{
     position: absolute;
     left: 30%;
     bottom: 92%;
 
   }
-  
-   }
 
+  .GroupRides img{
+    width: 100%;
+    border-radius:40px;
+    padding: 10px;
+    margin-right:5%;
+    margin-left: 5%;
+  }
+
+  .OurBicycles img{
+    width: 100%;
+    border-radius:60px;
+    margin-right:5%;
+    margin-left: 5%;
+
+  }
+
+
+   
+
+   }
+/* ----- Hamburger menu----- */
    #toggle:checked + #hambLinks {
     display:block;
     margin:0;
     padding:0;
-    
-
    }
 
   
