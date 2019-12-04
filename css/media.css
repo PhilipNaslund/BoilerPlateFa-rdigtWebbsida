@@ -1,0 +1,27 @@
+/* ----- Hamburger meny for the mobile version----- */
+
+
+@media only screen and (max-width: 400px)    {
+
+
+    #hambLinks  {
+        margin-top:30px;
+        text-align:center;
+        width:100%;
+        display:none;
+    }
+    
+       #hambLinks .navbar  {
+        display:block;
+        border-bottom:1px solid rgb(177, 163, 163);
+    }
+    
+    #toggle:checked + #hambLinks{
+        display:block;
+    }
+    
+    .navbar{
+        display: none;
+    }
+}
+
