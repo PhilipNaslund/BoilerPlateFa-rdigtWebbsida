@@ -462,9 +462,9 @@
 
   /* ----- Button to but Bicycles----- */
   #btnwrap{
-position: absolute;
-left: 30%;
-bottom: 92%;
+    position: absolute;
+    left: 30%;
+    bottom: 92%;
 
   }
   
