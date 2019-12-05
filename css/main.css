@@ -322,18 +322,15 @@
     padding: 5%;
     margin-right:10%;
     margin-left: 10%;
-   
-   
+  
  }
-     
  
   /* ----- Bikes Section ----- */
 
-
   .BicycleSection h1 {
-  padding-top: 100px;
+    padding-top: 150px;
+    
  }
-   
    
   .OurBicycles{
     display: grid;
@@ -355,6 +352,7 @@
     display: grid;
     min-height: 670px;
     text-align: center;
+    
   }
 
   /* ----- Group Rides information -----*/
@@ -473,29 +471,80 @@
     bottom: 92%;
 
   }
+  /* ----- Front page----- */
+  .Front-page{
+    min-height: 400px;
+    overflow: hidden;
   
+  }
+/* ----- Secondpage ----- */
+  .BicycleSection h1 {
+    padding-top: 60px;
+    
+ }
+
   /* ----- Bikes images in mobile scale----- */
 
   .GroupRides img{
     width: 100%;
     border-radius:40px;
     padding: 10px;
-    margin-right:5%;
-    margin-left: 5%;
+    float:none;
   }
 
   .OurBicycles img{
     width: 100%;
     border-radius:60px;
-    margin-right:5%;
-    margin-left: 5%;
-
+    float:none;
   }
 
-
-   
-
    }
+
+/* ----- Max width in mobile mode ----- */
+@media only screen and (max-width:1000px){
+
+/* ----- Secondpage ----- */
+.BicycleSection h1 {
+  padding-top: 5px;
+  
+}
+.firstpagebikes img{
+  position: absolute;
+  left: 0%;
+  padding-top: 14%;
+  width: 70%;
+}
+
+}
+
+/* ----- Max width in mobile mode ----- */
+@media only screen and (max-width:1300px){
+
+/* ----- Secondpage ----- */
+.BicycleSection h1 {
+  padding-top: 15%;
+  
+}
+.firstpagebikes img{
+  position: absolute;
+  left: 0%;
+  padding-top: 14%;
+  width: 70%;
+}
+
+.gridContact{
+  padding-bottom: 15%;
+}
+
+
+
+}
+
+
+
+
+
+
 /* ----- Hamburger menu----- */
    #toggle:checked + #hambLinks {
     display:block;
