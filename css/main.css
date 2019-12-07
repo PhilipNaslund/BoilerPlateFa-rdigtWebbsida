@@ -258,9 +258,10 @@
   #hamburgerMeny{
     display:none;
     
+    
   }
 
-  #hambLinks  {
+  #hambLinks {
     text-align:left;
     width:100%;
     height:auto;
@@ -272,7 +273,7 @@
    #hambLinks .navbar  {
     display:none;
     border-bottom:1px solid rgb(177, 163, 163);
-    color:black;
+    
     
 }
 
