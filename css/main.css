@@ -222,7 +222,7 @@
    /* when ypu press a navbar option it takes you to the page in a fast way  */
   html{
   
-    scroll-behavior: initial;
+    scroll-behavior: smooth;
   }
    
    
@@ -261,7 +261,7 @@
   }
 
   #hambLinks  {
-    text-align:center;
+    text-align:left;
     width:100%;
     height:auto;
     display:none;
@@ -278,6 +278,7 @@
 
 #toggle:checked + #hambLinks{
     display:none;
+    
     
 }
 
@@ -454,6 +455,7 @@
       
     }
 
+  
     .navbar{
       display: none;
    }
