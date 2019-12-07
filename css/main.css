@@ -380,7 +380,7 @@
     background-color: rgb(177, 163, 163);
     display: grid;
     width:auto;
-   min-height: 600px;
+    min-height: 600px;
     display: grid;
     text-align: center;
     
@@ -454,7 +454,7 @@
       padding:0;
       font-size: 2em;
       padding-left: 10px;
-      padding-top: 2em;
+      padding-top: 1em;
       
     }
     #toggle:checked{
@@ -484,9 +484,11 @@
     overflow: hidden;
   
   }
+
+  
 /* ----- Secondpage ----- */
   .BicycleSection h1 {
-    padding-top: 60px;
+    padding-top: 20%;
     
  }
 
