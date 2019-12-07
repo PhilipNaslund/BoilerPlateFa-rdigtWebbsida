@@ -449,7 +449,7 @@
       margin:0;
       padding:0;
       font-size: 2em;
-      padding-left: 2px;
+      padding-left: 10px;
       padding-top: 2em;
       
     }
@@ -467,9 +467,7 @@
 
   /* ----- Button to buy Bicycles----- */
   #btnwrap{
-    position: absolute;
-    left: 30%;
-    bottom: 92%;
+    display: none;
 
   }
   /* ----- Front page----- */
@@ -506,7 +504,7 @@
 
 /* ----- Secondpage ----- */
 .BicycleSection h1 {
-  padding-top: 5px;
+  padding-top: 2px;
   
 }
 .firstpagebikes img{
@@ -541,10 +539,6 @@
 
 
 }
-
-
-
-
 
 
 
