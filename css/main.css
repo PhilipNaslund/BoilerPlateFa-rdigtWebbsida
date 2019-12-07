@@ -276,11 +276,13 @@
     
 }
 
+
 #toggle:checked + #hambLinks{
     display:none;
     
     
 }
+
 
 
 
@@ -454,7 +456,7 @@
       padding-top: 2em;
       
     }
-
+   
   
     .navbar{
       display: none;
@@ -550,5 +552,9 @@
     display:block;
     margin:0;
     padding:0;
+   }
+
+   #toggle{
+     display: none;
    }
 
