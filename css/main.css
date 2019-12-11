@@ -1,4 +1,4 @@
- 
+ /* Css Code start */
    html {
     color: #222;
     font-size: 1em;
@@ -219,7 +219,7 @@
     position:relative;
     font-family:'Times New Roman', Times, serif;
   }
-   /* when ypu press a navbar option it takes you to the page in a fast way  */
+   /* when ypu press a navbar option it takes you to the page in a smooth way  */
   html{
   
     scroll-behavior: smooth;
@@ -444,7 +444,7 @@
     padding-right:15px;
   }
    
-/* ----- Max width in mobile mode ----- */
+/* ----- Max width in mobile mode 700px ----- */
   @media only screen and (max-width:700px)
 
   {
@@ -509,7 +509,7 @@
 
    }
 
-/* ----- Max width in mobile mode ----- */
+/* ----- Max width in mobile mode 1000px ----- */
 @media only screen and (max-width:1000px){
 
 /* ----- Secondpage ----- */
@@ -526,7 +526,8 @@
 
 }
 
-/* ----- Max width in mobile mode ----- */
+/* ----- Max width in mobile mode 1300px ----- */
+
 @media only screen and (max-width:1300px){
 
 /* ----- Secondpage ----- */
